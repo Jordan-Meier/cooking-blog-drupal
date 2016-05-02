@@ -8,5 +8,9 @@ function extend_mod_follow_networks_alter(&$networks, $uid = 0) {
         'title' => t('Redbubble'),
         'domain' => 'redbubble.com',
     );
+    $networks[$uid]['github'] = array(
+        'title' => t('Github'),
+        'domain' => 'github.com',
+    );
 
 }
