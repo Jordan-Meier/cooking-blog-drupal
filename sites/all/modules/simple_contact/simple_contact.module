@@ -1,9 +1,9 @@
 <?php
 function simple_contact_form_alter(&$form, &$form_state, &$form_id) {
-    print_r($form_id);
-    print "<pre>";
-    print_r($form);
-    print '</pre>';
+    // print_r($form_id);
+    // print "<pre>";
+    // print_r($form);
+    // print '</pre>';
 
     if($form_id == 'contact_site_form') {
         $form['subject']['#access'] = 0;
