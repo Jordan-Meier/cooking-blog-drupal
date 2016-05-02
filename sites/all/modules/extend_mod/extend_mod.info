@@ -1,0 +1,5 @@
+name = Extend Module
+description = Allow an etsy and redbubble link
+package = Epicodus Examples
+core = 7.x
+files[] = extend_mod.module
