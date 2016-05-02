@@ -1,0 +1,10 @@
+name = Easy CC
+description = Enable the Easy CC module with a link in the management menu.
+core = 7.x
+package = Features
+dependencies[] = easy_cc
+dependencies[] = features
+dependencies[] = menu
+features[features_api][] = api:2
+features[menu_custom][] = management
+features[menu_links][] = management_clear-cache:easy_cc
