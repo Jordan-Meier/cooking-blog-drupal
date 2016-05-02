@@ -1,0 +1,5 @@
+name = Change Default Value of Display Author/Date in form
+description = Sets the default value of the "Display author and date information" checkbox to 0 (unchecked).
+package = Epicodus Examples
+core = 7.x
+files[] = alter_hook_practice.module

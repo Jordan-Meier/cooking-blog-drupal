@@ -1,0 +1,5 @@
+name = Simple Contact Form
+description = Will hide subject line and send yourself a copy checkbox on contact form
+package = Epicodus Examples
+core = 7.x
+files[] = simple_contact.module
