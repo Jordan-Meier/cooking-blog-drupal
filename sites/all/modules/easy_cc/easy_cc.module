@@ -1,0 +1,17 @@
+<?php
+    function easy_cc_menu(){
+        $items['easy_cc'] = array(
+            'title' => 'Clear Cache',
+            'page callback' => 'easy_cc_redirect',
+            'access callback' => TRUE,
+            'type' => MENU_NORMAL_ITEM,
+        );
+        return $items;
+    }
+
+    function easy_cc_redirect() {
+        drupal_flush_all_caches();
+        drupal_set_message(t('All Cache Cleared!'));
+        drupal_goto('/');
+
+    }

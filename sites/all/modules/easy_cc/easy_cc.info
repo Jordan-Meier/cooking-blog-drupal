@@ -1,0 +1,5 @@
+name = Easy Cache Clear
+description = Easy access to a cache clear button!
+package = Epicodus Examples
+core = 7.x
+files[] = easy_cc.module
