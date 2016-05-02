@@ -1,0 +1,16 @@
+<?php
+function js_alert_menu() {
+    $items['js_alert'] = array(
+        'title' => "JS Alert",
+        'page callback' => 'js_alert',
+        'access callback' => TRUE,
+        'type' => MENU_NORMAL_ITEM,
+    );
+
+    return $items;
+}
+
+function js_alert() {
+    drupal_add_js('https://cdn.firebase.com/js/client/2.4.2/firebase.js', 'external');
+    return '<button id="js_alert">Click Me</button>';
+}

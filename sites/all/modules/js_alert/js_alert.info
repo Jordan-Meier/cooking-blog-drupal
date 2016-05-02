@@ -1,0 +1,6 @@
+name = JS Alert
+description = Alert the user with JavaScript
+package = Epicodus Examples
+core = 7.x
+files[] = js_alert.module
+scripts[] = js_alert.js
