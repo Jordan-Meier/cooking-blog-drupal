@@ -11,4 +11,11 @@ function simple_contact_form_alter(&$form, &$form_state, &$form_id) {
         $form['copy']['#access'] = 0;
         $form['copy']['#default_value'] = 1;
     }
+
+    if($form_id == 'recipe_node_form' || $form_id == 'news_node_form' || $form_id == 'tips_and_tricks_node_form' || $form_id == 'awards_reviews_node_form') {
+      $form['additional_settings']['#access'] = 0;
+      $form['comment_settings']['comment']['#default_value'] = 1;
+    }
+
+
 }
