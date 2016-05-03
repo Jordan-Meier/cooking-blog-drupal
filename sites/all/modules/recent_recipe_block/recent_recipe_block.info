@@ -1,0 +1,8 @@
+name = Recent Recipe Block
+core = 7.x
+package = Features
+dependencies[] = views
+features[ctools][] = views:views_default:3.0
+features[features_api][] = api:2
+features[views_view][] = recent_recipes
+features_exclude[dependencies][ctools] = ctools

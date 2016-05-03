@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Recent Recipe Block feature.
+ */
+
+include_once 'recent_recipe_block.features.inc';
