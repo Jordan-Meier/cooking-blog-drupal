@@ -213,11 +213,11 @@
  * @endcode
  */
 $databases = array (
-  'default' => 
+  'default' =>
   array (
-    'default' => 
+    'default' =>
     array (
-      'database' => 'cooking-blog',
+      'database' => 'cooking_blog',
       'username' => 'admin',
       'password' => 'admin',
       'host' => '127.0.0.1',
