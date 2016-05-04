@@ -1,0 +1,15 @@
+name = Klean Theme
+core = 7.x
+engine = phptemplate
+stylesheets[all][] = css/style.css
+scripts[] = js/scripts.js
+regions[deals] = Deals
+regions[page_top] = Page top
+regions[page_bottom] = Page bottom
+regions[help] = Help
+regions[content] = Content
+regions[header] = Header
+regions[footer] = Footer
+regions[highlighted] = Highlighted
+regions[sidebar_first] = Sidebar First
+regions[sidebar_second] = Sidebar Second
