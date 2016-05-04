@@ -12,7 +12,6 @@
 ############
 *.7z
 *.dmg
-*.gz
 *.bz2
 *.iso
 *.jar
@@ -41,4 +40,3 @@ Thumbs.db
 # SASS #
 ##########
 .sass-cache
-
